@@ -152,3 +152,81 @@ header .header_right .pulsante:hover {
   }
 }
 
+.dati-container {
+  background-color: #1b3c59;
+  margin-top: 100px;
+}
+
+.dati {
+  display: flex;
+  color: white;
+  padding: 30px 0;
+}
+
+.dati .dato {
+  padding: 20px;
+  text-align: center;
+}
+
+.dati .dato h3 {
+  font-size: 50px;
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+
+.dati .dato p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+  .dati {
+    flex-direction: column;
+  }
+}
+
+footer {
+  background-color: #1b3c59;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container .footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+footer .container .footer_top .footer_top_left img {
+  width: 200px;
+}
+
+footer .container .footer_top p {
+  padding: 10px 0;
+}
+
+footer .container .footer_bot {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+footer .container .footer_bot span i {
+  font-size: 45px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  footer .container {
+    width: 65%;
+  }
+}
+

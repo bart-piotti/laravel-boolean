@@ -1,0 +1,29 @@
+.dati-container {
+    background-color: $text_color;
+    margin-top: 100px;
+}
+
+.dati {
+    display: flex;
+    color: white;
+    padding: 30px 0;
+        .dato {
+            padding: 20px;
+            text-align: center;
+                h3 {
+                    font-size: 50px;
+                    padding-bottom: 15px;
+                    font-weight: normal;
+                }
+                p {
+                font-size: 20px;
+                font-weight: 300;
+                }
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .dati {
+        flex-direction: column;
+    }
+}
