@@ -1,3 +1,5 @@
+$text_color: rgb(27, 60, 89);
+$verde: #61ce4e;
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,7 @@
     font-family: 'Rubik', sans-serif;
 }
 
-$text_color: rgb(27, 60, 89);
-$verde: #61ce4e;
+.container {
+    max-width: 90%;
+    margin: auto;
+}

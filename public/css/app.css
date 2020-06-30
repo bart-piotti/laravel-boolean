@@ -5,6 +5,11 @@
   font-family: "Rubik", sans-serif;
 }
 
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
 header {
   display: flex;
   height: 90px;
@@ -77,6 +82,73 @@ header .header_right .pulsante:hover {
 
   .header_left {
     text-align: center;
+  }
+}
+
+.jumbo {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbo_left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo_left h1 {
+  color: #1b3c59;
+  font-size: 58px;
+  font-weight: normal;
+}
+
+.jumbo_left h3 {
+  color: #1b3c59;
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.jumbo_left ul {
+  list-style-position: inside;
+}
+
+.jumbo_left ul li {
+  color: #1b3c59;
+  padding: 5px 0;
+  font-weight: lighter;
+}
+
+.jumbo_left ul li strong {
+  font-weight: normal;
+}
+
+.jumbo_right {
+  width: 45%;
+}
+
+.jumbo_right img {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .jumbo {
+    flex-direction: column;
+  }
+
+  .jumbo_right,
+  .jumbo_left {
+    width: 90%;
+  }
+
+  .jumbo_right {
+    padding-top: 25px;
   }
 }
 

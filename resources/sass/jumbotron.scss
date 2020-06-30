@@ -1,0 +1,56 @@
+.jumbo {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.jumbo_left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+        h1 {
+            color: $text_color;
+            font-size: 58px;
+            font-weight: normal;
+        }
+        h3 {
+            color: $text_color;
+            font-size: 22px;
+            font-weight: normal;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-position: inside;
+                li {
+                    color: $text_color;
+                    padding: 5px 0;
+                    font-weight: lighter;
+                        strong {
+                            font-weight: normal;
+                        }
+                }
+        }
+}
+
+.jumbo_right {
+    width: 45%;
+        img {
+         width: 100%;
+     }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .jumbo {
+        flex-direction: column;
+    }
+    .jumbo_right, .jumbo_left {
+        width: 90%;
+    }
+    .jumbo_right {
+        padding-top: 25px;
+    }
+}
