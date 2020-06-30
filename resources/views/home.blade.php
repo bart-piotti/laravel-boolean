@@ -3,4 +3,5 @@
 @section('page')
     @include('partials.jumbo')
     @include('partials.dati')
+    @include('partials.aziende_partner')
 @endsection

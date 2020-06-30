@@ -1,0 +1,38 @@
+.aziende p {
+    color: rgb(142, 142, 142);
+    padding: 10px 0;
+    font-size: 20px;
+}
+.loghi {
+    padding: 65px 0;
+}
+.loghi_top, .loghi_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .logo_wrap {
+            flex-basis: 33.3%;
+                img {
+                    max-width: 250px;
+                }
+            }
+}
+
+.loghi_bot {
+    text-align: right;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .loghi_top .logo_wrap img, .loghi_bot .logo_wrap img {
+        max-width: 180px;
+    }
+    .aziende p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 560px) {
+    .loghi_top .logo_wrap img, .loghi_bot .logo_wrap img {
+        max-width: 120px;
+    }
+}

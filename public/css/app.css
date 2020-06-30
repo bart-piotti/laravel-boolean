@@ -185,10 +185,59 @@ header .header_right .pulsante:hover {
   }
 }
 
+.aziende p {
+  color: #8e8e8e;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.loghi {
+  padding: 65px 0;
+}
+
+.loghi_top,
+.loghi_bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loghi_top .logo_wrap,
+.loghi_bot .logo_wrap {
+  flex-basis: 33.3%;
+}
+
+.loghi_top .logo_wrap img,
+.loghi_bot .logo_wrap img {
+  max-width: 250px;
+}
+
+.loghi_bot {
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .loghi_top .logo_wrap img,
+  .loghi_bot .logo_wrap img {
+    max-width: 180px;
+  }
+
+  .aziende p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .loghi_top .logo_wrap img,
+  .loghi_bot .logo_wrap img {
+    max-width: 120px;
+  }
+}
+
 footer {
   background-color: #1b3c59;
   padding: 20px;
-  margin-top: 100px;
 }
 
 footer .container {
