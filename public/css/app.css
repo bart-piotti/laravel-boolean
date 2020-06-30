@@ -248,7 +248,7 @@ footer .container {
 footer .container .footer_top {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   color: white;
   padding-bottom: 20px;
   border-bottom: 2px solid white;
@@ -262,6 +262,16 @@ footer .container .footer_top p {
   padding: 10px 0;
 }
 
+footer .container .footer_top .footer_top_right p {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+footer .container .footer_top .footer_top_right p:hover {
+  text-decoration: underline;
+  transition-duration: 0.4s;
+}
+
 footer .container .footer_bot {
   text-align: center;
   padding: 20px;
@@ -271,6 +281,12 @@ footer .container .footer_bot {
 footer .container .footer_bot span i {
   font-size: 45px;
   padding: 20px;
+  cursor: pointer;
+}
+
+footer .container .footer_bot span i:hover {
+  color: #61ce4e;
+  transition-duration: 0.4s;
 }
 
 @media screen and (min-width: 1400px) {

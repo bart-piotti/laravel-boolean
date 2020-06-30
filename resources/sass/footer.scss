@@ -7,7 +7,7 @@ footer {
                 .footer_top {
                     display: flex;
                     justify-content: space-between;
-                    align-items: baseline;
+                    align-items: flex-end;
                     color: white;
                     padding-bottom: 20px;
                     border-bottom: 2px solid white;
@@ -19,6 +19,14 @@ footer {
                         p {
                             padding: 10px 0;
                         }
+                        .footer_top_right p {
+                            font-size: 19px;
+                            cursor: pointer;
+                            &:hover {
+                                text-decoration: underline;
+                                transition-duration: .4s;
+                            }
+                        }
                 }
                 .footer_bot {
                     text-align: center;
@@ -27,6 +35,11 @@ footer {
                         span i {
                             font-size: 45px;
                             padding: 20px;
+                            cursor: pointer;
+                                &:hover {
+                                    color: $verde;
+                                    transition-duration: .4s;
+                                }
                         }
                 }
         }
