@@ -2,16 +2,16 @@
     <div class="container">
         <div class="footer_top">
             <div class="footer_top_left">
-                <img src="https://www.boolean.careers/images/common/logo-white.png" alt="">
+                <a href="{{ route('home') }}"><img src="https://www.boolean.careers/images/common/logo-white.png" alt=""></a>
                 <p>Sede Operativa</p>
                 <p>Via Carducci 12 - 20123 Milano</p>
                 <p>Tel: 02-40031288</p>
             </div>
             <div class="footer_top_right">
-                <p>Lezione gratuita</p>
-                <p>Domande frequenti</p>
-                <p>Privacy policy</p>
-                <p>Lavora con noi</p>
+                <a href=""><p>Lezione gratuita</p></a>
+                <a href=""><p>Domande frequenti</p></a>
+                <a href="{{ route('policy') }}"><p>Privacy policy</p></a>
+                <a href=""><p>Lavora con noi</p></a>
             </div>
         </div>
         <div class="footer_bot">

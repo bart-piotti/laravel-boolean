@@ -6,8 +6,16 @@ $verde: #61ce4e;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-
 .container {
     max-width: 90%;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+h1, h2, h3, p, ul li {
+    cursor: default;
 }

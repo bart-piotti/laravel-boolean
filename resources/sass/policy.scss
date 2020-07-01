@@ -1,0 +1,32 @@
+$std_padd: 20px;
+.policy_cnt {
+    width: 65%;
+    margin: auto;
+    padding: 100px 0;
+    color: #1c4858de;
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        h2 {
+            padding-bottom: 15px;
+        }
+        section, h1 {
+            padding-bottom: 40px;
+        }
+        ul {
+            padding-top: $std_padd;
+            padding-left: 40px;
+        }
+        p, ul li {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            cursor: default;
+        }
+}
+
+.padd_bot {
+    padding-bottom: $std_padd;
+}

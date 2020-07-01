@@ -10,6 +10,19 @@
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h1,
+h2,
+h3,
+p,
+ul li {
+  cursor: default;
+}
+
 header {
   display: flex;
   height: 90px;
@@ -18,6 +31,7 @@ header {
   background-color: white;
   position: fixed;
   width: 100%;
+  box-shadow: 0 0 2px 0px #00000080;
 }
 
 .logo img {
@@ -235,6 +249,44 @@ header .header_right .pulsante:hover {
   }
 }
 
+.policy_cnt {
+  width: 65%;
+  margin: auto;
+  padding: 100px 0;
+  color: #1c4858de;
+}
+
+.policy_cnt h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.policy_cnt h2 {
+  padding-bottom: 15px;
+}
+
+.policy_cnt section,
+.policy_cnt h1 {
+  padding-bottom: 40px;
+}
+
+.policy_cnt ul {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.policy_cnt p,
+.policy_cnt ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: default;
+}
+
+.padd_bot {
+  padding-bottom: 20px;
+}
+
 footer {
   background-color: #1b3c59;
   padding: 20px;
@@ -251,7 +303,7 @@ footer .container .footer_top {
   align-items: flex-end;
   color: white;
   padding-bottom: 20px;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 footer .container .footer_top .footer_top_left img {
@@ -260,6 +312,10 @@ footer .container .footer_top .footer_top_left img {
 
 footer .container .footer_top p {
   padding: 10px 0;
+}
+
+footer .container .footer_top a {
+  color: white;
 }
 
 footer .container .footer_top .footer_top_right p {
